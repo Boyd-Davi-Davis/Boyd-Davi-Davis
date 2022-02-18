@@ -1,0 +1,38 @@
+{
+    "ticket_title": "Nucleus: [Medium] - CVE-2020-00000",
+    "ticket_description": "Source: AMAZON\nDescription: Arm Armv8-A core implementations utilizing speculative execution past unconditional changes in control flow may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis, aka \"straight-line speculation.\"\n\nCVE Link: http:\/\/people.ubuntu.com\/~ubuntu-security\/cve\/CVE-2020-00000\n\nTarget:\n  Asset name: 082461259716.dkr.ecr.us-east-1.amazonaws.com\/nucleus-test-image\n\nSolution: Update the package to a non-vulnerable version.\n\nReferences: \nDiscovered By: ECR\nPackage Version: 8.4.0-1ubuntu1~18.04\nCVSS Vector: AV:L\/AC:L\/Au:N\/C:P\/I:N\/A:N\nCVSS Base Score: 2.1\n\nSeverity: Medium\nExploitable: No\nDate Discovered: 2021-04-12 13:01:19\n\nPlease see https:\/\/192.168.56.103\/nucleus\/public\/app\/index.html#vuln\/36000000\/Q1ZFLTIwMjAtMDAwMDA-\/QU1BWk9O\/VnVsbg--\/false\/MzYwMDAwMDA-\/c3VtbWFyeQ--\/false for more information on these vulnerabilities",
+    "Category": "",
+    "Service": "",
+    "Configuration item": "",
+    "Contact type": "",
+    "State": "",
+    "Impact": "",
+    "Urgency": "",
+    "Assignment group": "",
+    "Assigned To": "",
+    "Actual start": "",
+    "project_id": "15",
+    "finding_number": "CVE-2020-00000",
+    "scan_type": "AMAZON",
+    "finding_name": "CVE-2020-00000",
+    "finding_description": "Arm Armv8-A core implementations utilizing speculative execution past unconditional changes in control flow may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis, aka \"straight-line speculation.\"<br \/><br \/>CVE Link: <a href=\"http:\/\/people.ubuntu.com\/~ubuntu-security\/cve\/CVE-2020-00000\">http:\/\/people.ubuntu.com\/~ubuntu-security\/cve\/CVE-2020-00000<\/a>",
+    "finding_recommendation": "Update the package to a non-vulnerable version.",
+    "finding_severity": "Medium",
+    "finding_exploitable": false,
+    "finding_cves": "CVE-2020-00000",
+    "finding_references": "",
+    "instances": [
+        {
+            "host_id": "41000349",
+            "finding_justification_key": "CVE-2020-00000-gcc-8-8.4.0-1ubuntu1-18.04",
+            "finding_port": "",
+            "finding_path": "",
+            "finding_output": "CVE-2020-00000",
+            "finding_code_snippet": "",
+            "finding_http_request": "None",
+            "finding_http_response": "None",
+            "finding_line_number": "",
+            "finding_package": "gcc-8"
+        }
+    ]
+}
